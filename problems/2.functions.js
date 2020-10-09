@@ -31,3 +31,10 @@ function incrementGlobalCount() {
 function multiply() {
 
 }
+
+module.exports = {
+  logGreeting,
+  greeting,
+  incrementGlobalCount,
+  multiply
+}

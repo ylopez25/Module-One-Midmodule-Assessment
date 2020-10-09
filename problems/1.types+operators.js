@@ -19,6 +19,12 @@ function isTruthy() {
 * @param {string} str - The input string
 * @returns {number} - The string converted to a number and doubled
 */
-function double() {
+function doubleStr() {
 
+}
+
+module.exports = {
+  isNumber,
+  isTruthy,
+  doubleStr
 }

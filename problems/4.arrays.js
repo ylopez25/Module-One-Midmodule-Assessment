@@ -1,4 +1,4 @@
-/** Averages the first and last value of an array.
+/** Averages the first and last value of an array.  Return null if the array has fewer than 2 elements.
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
@@ -16,10 +16,16 @@ function duplicateArray() {
 
 }
 
-/** Removes the first 3 elements from an array
+/** Removes the first 3 elements from an array.  If the array has fewer than 3 elements, return an empty array.
 * @param {any[]} arr - The input array
 * @returns {any[]} - The array with the first 3 elements removed
 */
 function removeFirstThreeElements() {
 
+}
+
+module.exports = {
+  firstAndLastAverage,
+  duplicateArray,
+  removeFirstThreeElements
 }

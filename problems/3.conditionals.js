@@ -22,3 +22,9 @@ function temperatureMessageUsingTernary() {
 function ageMessage() {
 
 }
+
+module.exports = {
+  temperatureMessage,
+  temperatureMessageUsingTernary,
+  ageMessage
+}
