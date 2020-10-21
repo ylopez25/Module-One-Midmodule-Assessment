@@ -3,7 +3,7 @@ const { evenNumbers, multiplesToOneThousand, powersOfTwo } = require("../problem
 describe("evenNumbers", () => {
   test("Builds an array with even numbers from 0 to n", () => {
     expect(evenNumbers(8)).toEqual([0,2,4,6,8])
-    expect(evenNumbers(22)).toEqual(0,2,4,6,8,10,12,14,16,18,20,22)
+    expect(evenNumbers(22)).toEqual([0,2,4,6,8,10,12,14,16,18,20,22])
   })
   test("Builds a correct array when n is odd", () => {
     expect(evenNumbers(9)).toEqual([0,2,4,6,8])
