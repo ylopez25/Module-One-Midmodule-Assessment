@@ -13,7 +13,7 @@ describe("logGreeting", () => {
 
 describe("greeting", () => {
   test("Returns a greeting message", () => {
-    expect(greeting("Ben")).toBe("Hello Ben!"))
+    expect(greeting("Ben")).toBe("Hello Ben!")
   })
   test("Does not log the greeting to the console", () => {
     console.log = jest.fn()
