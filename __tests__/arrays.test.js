@@ -25,7 +25,7 @@ describe("removeFirstThreeElements", () => {
   test("Builds a new array with the first three values removed", () => {
     expect(removeFirstThreeElements(["a","b","c","d","e","f"])).toBe(["d","e","f"])
     expect(removeFirstThreeElements([1,2,3,4])).toBe([4])
-    expect(removeFirstThreeElements([true, true true])).toBe([])
+    expect(removeFirstThreeElements([true, true, true])).toBe([])
   })
   expect("Removes all elements from arrays with fewer than three elements", () => {
     expect(removeFirstThreeElements([1,2])).toBe([])
