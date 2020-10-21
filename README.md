@@ -2,6 +2,7 @@
 
 # Pursuit-Core-Module-One-Midmodule-Assessment
 
+[Documentation](https://joinpursuit.github.io/Module-One-Midmodule-Assessment/)
 ___
 
 ## Getting Started 
