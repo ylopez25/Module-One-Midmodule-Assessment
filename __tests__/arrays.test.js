@@ -11,13 +11,13 @@ describe("firstAndLastAverage", () => {
   })
 })
 
-descripbe("duplicateArray", () => {
+describe("duplicateArray", () => {
   test("Duplicates the values in an array", () => {
-    expect(duplicateArray([1,4,2,5])).toBe([1,4,2,5,1,4,2,5])
-    expect(duplicateArray(1,1,1)).toBe([1,1,1,1,1,1])
+    expect(duplicateArray([1,4,2,5])).toEqual([1,4,2,5,1,4,2,5])
+    expect(duplicateArray(1,1,1)).toEqual([1,1,1,1,1,1])
   })
   test("Handles empty arrays", () => {
-    expect(duplicateArray([])).toBe([])
+    expect(duplicateArray([])).toEqual([])
   })
 })
 

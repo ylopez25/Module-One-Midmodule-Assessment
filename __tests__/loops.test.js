@@ -1,4 +1,4 @@
-const { evenNumbers, multiplesToOneThousand, powersOfTwo } = require("../problems/6.loops.js")
+const { evenNumbers, multiplesToOneThousand, powersOfTwo } = require("../problems/5.loops.js")
 
 describe("evenNumbers", () => {
   test("Builds an array with even numbers from 0 to n", () => {
