@@ -16,7 +16,7 @@ function duplicateArray() {
 
 }
 
-/** Removes the first 3 elements from an array.  If the array has fewer than 3 elements, return an empty array.
+/** Removes the first 3 elements from an array. If the array has fewer than 3 elements, return an empty array.
 * @param {any[]} arr - The input array
 * @returns {any[]} - The array with the first 3 elements removed
 */

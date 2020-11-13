@@ -1,6 +1,6 @@
 /** Returns every even number from 0 to a given number
 * @param {number} num - The number to iterate up to
-* @param {number[]} - Even numbers from 0 to {num}
+* @param {number[]} - An array of even numbers from 0 to {num}
 */
 function evenNumbers() {
 
@@ -8,7 +8,7 @@ function evenNumbers() {
 
 /** Returns all multiples of a given number up to 1000
 * @param {number} num - The number to find multiples of
-* @returns {number[]} - All multiples of the number up to 1000
+* @returns {number[]} - An array of all multiples of {num} up to 1000
 */
 function multiplesToOneThousand() {
 
