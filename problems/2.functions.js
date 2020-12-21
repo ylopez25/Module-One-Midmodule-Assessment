@@ -15,9 +15,10 @@ function greeting() {
 }
 
 /** Adds a number to a global variable called globalCount
+ * Access globalCount like this: global.globalCount
 * @param  {number} val - The number to add to globalCount
 * @returns {null}
-* @modifies {globalCount}
+* @modifies {global.globalCount}
 */
 function incrementGlobalCount() {
 

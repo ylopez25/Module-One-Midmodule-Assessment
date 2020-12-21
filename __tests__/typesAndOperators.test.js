@@ -11,8 +11,9 @@ describe("isNumber", () => {
     expect(isNumber([1,2,3])).toBe(false)
   })
   test("Handles values that might not look like numbers, but are numbers", () => {
-    expect(isNumber("34")).toBe(true)
     expect(isNumber(4/0)).toBe(true)
+    expect(isNumber("34")).toBe(false)
+    expect(isNumber(NaN)).toBe(true)
   })
 })
 
