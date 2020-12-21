@@ -31,18 +31,3 @@ describe("isTruthy", () => {
     expect(isTruthy(NaN)).toBe(false)
   })
 })
-
-describe("doubleStr", () => {
-  test("Doubles string inputs", () => {
-    expect(doubleStr("10")).toBe(20)
-    expect(doubleStr("0")).toBe(0)
-    expect(doubleStr("1.5")).toBe(3)
-  })
-  test("Returns a number", () => {
-    const doubledVal = doubleStr("10")
-    expect(typeof doubledVal).toBe("number")
-  })
-  test("Handles NaN inputs", () => {
-    expect(doubleStr("Hello")).toBe(NaN)
-  })
-})

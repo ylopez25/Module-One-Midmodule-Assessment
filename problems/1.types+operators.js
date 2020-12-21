@@ -14,17 +14,8 @@ function isTruthy() {
 
 }
 
-/** Takes in a string, coverts it to an integer and doubles it.  Returns NaN if the string is not able to be converted to a number.
-
-* @param {string} str - The input string
-* @returns {number} - The string converted to a number and doubled
-*/
-function doubleStr() {
-
-}
 
 module.exports = {
   isNumber,
-  isTruthy,
-  doubleStr
+  isTruthy
 }
