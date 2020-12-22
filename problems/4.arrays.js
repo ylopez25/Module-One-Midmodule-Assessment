@@ -2,7 +2,7 @@
 * @param {number[]} arr - The input array
 * @returns {number} - The average of the first and last values
 */
-function firstAndLastAverage() {
+function firstAndLastAverage(arr) {
 
 }
 
@@ -12,7 +12,11 @@ function firstAndLastAverage() {
 * @param {number[]} arr - The input array
 * @returns {number[]} - The duplicated array
 */
-function duplicateArray() {
+function duplicateArray(arr) {
+  numbers = [1,4,2,5] ;
+  numbersCopy = [] ; {
+    return numbersCopy
+  }
 
 }
 
