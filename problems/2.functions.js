@@ -2,16 +2,17 @@
 * @param {string} name - The name of the user to greet
 * @returns {null}
 */
-function logGreeting(name) {
-  let greeting = ("Hello" + name + "!")
+function logGreeting() {
+console.log("Hello Ben!")
 }
+
 
 /** Returns a custom greeting string in the form "Hello Avery!"
 * @param {string} name - The name of the user to greet
 * @returns {string} - The custom greeting
 */
 function greeting(name) {
-  return "Hello Avery!"
+  return "Hello Ben!"
 }
 
 /** Adds a number to a global variable called globalCount
@@ -20,9 +21,12 @@ function greeting(name) {
 * @returns {null}
 * @modifies {global.globalCount}
 */
-function incrementGlobalCount(val) {
 
+function incrementGlobalCount(val) {
+global.globalCount += val
 }
+incrementGlobalCount()
+
 /** Multiplies three numbers
 * @param {number} firstNum - The first number
 * @param {number} secondNum - The second number
